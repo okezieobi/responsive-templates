@@ -1,0 +1,23 @@
+{
+  "name": "responsive-templates",
+  "version": "1.0.0",
+  "description": "Responsive Templates in HTML5, CSS3 and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browser": "browser-sync UI -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okezieobi/responsive-templates.git"
+  },
+  "author": "Frank Okezie Obiedere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okezieobi/responsive-templates/issues"
+  },
+  "homepage": "https://github.com/okezieobi/responsive-templates#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
