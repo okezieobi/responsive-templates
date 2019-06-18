@@ -1,0 +1,179 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+header {
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background-color: grey;
+  color: white;
+}
+
+main {
+  padding-top: 3vw;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+footer {
+  margin-top: 16.2vw;
+  display: -webkit-flex;
+  justify-content: center;
+  background-color: grey;
+}
+
+nav {
+  padding: 0vw 1vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  padding-left: 1vw;
+  font-family: 'Eater';
+}
+
+h2,
+h3 {
+  color: white;
+}
+
+h3 {
+  padding-left: 23px;
+}
+
+h1:hover,
+h2:hover {
+  color: black;
+}
+
+form {
+  border: none;
+  background-color: grey;
+  border-radius: 4px;
+  padding: 10px 0px;
+}
+
+fieldset {
+  border: none;
+  outline: none;
+}
+.fieldset {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+.space-1 {
+  flex-basis: 7;
+  flex-grow: 3;
+  padding: 0vw 1vw;
+  align-self: center;
+}
+
+.space-2 {
+  flex-basis: 1;
+  flex-grow: 2;
+  padding: 0vw 1vw;
+}
+
+.form-centering {
+  display: flex;
+  justify-content: center;
+}
+
+.label {
+  text-align: right;
+  padding-top: 8px;
+}
+
+label {
+  color: white;
+}
+
+input {
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+
+button {
+  padding: 8px 10px;
+  margin-right: 25px;
+  font-size: 120%;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.quote {
+  font-size: 120%;
+  color: grey;
+}
+
+.dashboard-header {
+  display: -webkit-flex;
+  flex-flow: row nowrap;
+}
+
+h4 {
+  color: white;
+}
+
+.user-icon {
+  font-size: 40px;
+  padding: 5px 5px 0px 0px;
+}
+
+@media screen and (max-width: 740px) {
+  .header {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 459px) {
+  h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  main {
+    justify-content: center;
+  }
+
+  .space1,
+  .space-2 {
+    flex-grow: 0.2;
+  }
+
+  .quote {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 758px) {
+  .sign-up-nav-item {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .dash-menu {
+    display: none;
+  }
+}
